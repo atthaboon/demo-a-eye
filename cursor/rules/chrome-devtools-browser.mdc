@@ -1,0 +1,13 @@
+---
+description: Use chrome-devtools-mcp for all webpage interactions
+alwaysApply: true
+---
+
+# Browser Interaction Rules
+
+When interacting with a web application, ALWAYS use `chrome-devtools-mcp` instead of `browser_subagent`.
+
+1. Use `@mcp:chrome-devtools-mcp` for ALL webpage interactions.
+2. All navigation, inspection, clicking, typing, scrolling, expanding menus, and reading page content MUST go through `@mcp:chrome-devtools-mcp`.
+3. Do NOT use Playwright browser actions or other browser automation tools for exploration unless the user explicitly requests them or `@mcp:chrome-devtools-mcp` cannot perform the required action.
+4. Do NOT take screenshots unless absolutely necessary.

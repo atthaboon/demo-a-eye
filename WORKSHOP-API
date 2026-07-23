@@ -1,0 +1,14 @@
+Steps
+Search flight - NRT to BKK
+"from": "NRT",
+"to": "BKK",
+"date": "2026-04-20",
+"price": 12500
+Booking
+Payment
+
+Flight API: 
+https://api-web-demo.qahive.com/swagger 
+
+Flight Dashboard: 
+https://web-demo.qahive.com/flight-booking-dashboard/ 

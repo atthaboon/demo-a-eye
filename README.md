@@ -34,3 +34,11 @@ npm run test-cucumber-win --  --name "<test scenario>"
 npm run test-cucumber --  --name "Cannot login with invalid credentials"
 ```
 
+```bash
+npm run test-cucumber --  --tags "<tag>"
+npm run test-cucumber-win --  --tags "<tag>"
+
+npm run test-cucumber -- --tags "@smoke"
+```
+
+

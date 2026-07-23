@@ -6,3 +6,10 @@ Given('the user adds product {string} to cart', async function (this: CustomWorl
   const productListPage = new ProductListPage(this.page);
   await productListPage.addProductByName(productName);
 });
+
+
+When('the user proceeds to checkout', async function (this: CustomWorld) {
+  const productListPage = new ProductListPage(this.page);
+  await productListPage.checkout();
+});
+

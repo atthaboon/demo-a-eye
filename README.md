@@ -7,6 +7,7 @@ npm install -d tsx
 
 ```json
 "scripts": {
+    "test-cucumber-win": "set NODE_OPTIONS=--import tsx && cucumber-js",
     "test-cucumber": "NODE_OPTIONS='--import tsx' cucumber-js",
     "test-cucumber:headless": "NODE_OPTIONS='--import tsx' HEADLESS=true cucumber-js",
     "test-cucumber:firefox": "NODE_OPTIONS='--import tsx' BROWSER=firefox cucumber-js",

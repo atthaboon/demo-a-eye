@@ -4,7 +4,8 @@ npm install -g cucumber-js
 npm install -d tsx
 
 ## package.json
-```
+
+```json
 "scripts": {
     "test-cucumber": "NODE_OPTIONS='--import tsx' cucumber-js",
     "test-cucumber:headless": "NODE_OPTIONS='--import tsx' HEADLESS=true cucumber-js",
@@ -14,3 +15,9 @@ npm install -d tsx
   },
 ```
 
+
+## Run Test
+
+```bash
+npm run test-cucumber
+```

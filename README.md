@@ -20,5 +20,9 @@ npm install -d tsx
 ## Run Test
 
 ```bash
+# mac
 npm run test-cucumber
+
+# win
+npm run test-cucumber-win
 ```

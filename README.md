@@ -26,3 +26,11 @@ npm run test-cucumber
 # win
 npm run test-cucumber-win
 ```
+
+```bash
+npm run test-cucumber --  --name "<test scenario>"
+npm run test-cucumber-win --  --name "<test scenario>"
+
+npm run test-cucumber --  --name "Cannot login with invalid credentials"
+```
+

@@ -39,17 +39,19 @@ export default defineConfig({
       name: "chromium",
       use: { 
         ...devices["Desktop Chrome"], 
+        
         // Add client certificate configuration
         /*
+        ignoreHTTPSErrors: true,
         clientCertificates: [
-            {
-              origin: 'https://your-secure-site.com',
-              pfxPath: './path/to/certificate.p12',
-              passphrase: 'your_certificate_password',
-            },
-          ]
+          {
+            origin: 'https://your-secure-site.com',
+            pfxPath: './path/to/certificate.p12',
+            passphrase: 'your_certificate_password',
+          },
+        ]
+        */
        },
-       */
     },
 
     /*

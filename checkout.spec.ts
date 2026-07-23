@@ -6,9 +6,9 @@ Feature: Checkout
 
   Scenario: User able to add product to cart
     Given the user adds product "Apple Watch" to cart
-    # When the user proceeds to checkout
-    # And the user submits payment with credit card details
-    #  | cardholderName | John Doe         |
-    #  | cardNumber     | 4242424242424242 |
-    #  | expiryDate     | 12/2026          |
-    #  | cvv            | 123              |
+    When the user proceeds to checkout
+    And the user submits payment with credit card details
+     | cardholderName | John Doe         |
+     | cardNumber     | 4242424242424242 |
+     | expiryDate     | 12/2026          |
+     | cvv            | 123              |

@@ -1,6 +1,6 @@
 ## Install cucumber global
 npm install -g cucumber-js 
-
+npm install -d tsx
 
 ## package.json
 ```
@@ -12,3 +12,4 @@ npm install -g cucumber-js
     "test-cucumber:mobile": "NODE_OPTIONS='--import tsx' DEVICE='iPhone 12' cucumber-js"
   },
 ```
+
